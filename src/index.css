@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fff;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 824px) {
+  body {
+    font-size: 26px;
+  }
+}
+.kombo-container {
+  position: sticky;
+  top: 0;
+  overflow-x: hidden;
+  background: #fff;
+  z-index: 1;
+  transition: all 0.3s ease;
+  margin: 25px auto 0;
+  border-radius: 0;
+  box-shadow: -5px 0 15px rgba(0,0,0,.2);
+}
+
+.box-menu__info {
+  transition: all 10s ease; 
+}
+
